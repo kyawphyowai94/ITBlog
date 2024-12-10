@@ -1,0 +1,30 @@
+- Create Github Repo
+- Create laravel project in htdocs
+    - composer create-project laravel/laravel project-name
+- Local laravel project link to Github Repo
+    - git init
+    - git remote add origin (clone url)
+    - git status
+    - git add .
+    - git commit -m "satrtin project"
+    - git push -u origin main or master
+- Install ui bootstrap
+    - php artisan ui bootstrap --auth
+- npm Install
+- npm run build
+
+- php artisan make:controller Controller --resource
+
+- php artisan make:model ModelName -m
+
+- php artisan migrate
+- php artisan migrate:fresh (danger - project အစမှာဘဲသုံး Data အကုန်ပျက်တယ်)
+
+Faker and Factory
+
+- php artisan make:Factory FactoryName
+- migrations/migrate.php
+- Models/   .php
+- seeders/DatabaseSeeder.php
+
+- php artisan db:seed

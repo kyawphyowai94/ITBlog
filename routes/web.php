@@ -8,6 +8,7 @@ Route::get('/Blog-post/{id}',[App\Http\Controllers\FrontController::class,'blogI
 Route::group(['prefix'=>'backend','as'=>'backend.'],function(){
     
     Route::get('/',[App\Http\Controllers\Admin\DashboardController::class,'index'])->name('dashboard');
+    Route::resource('posts',App\Http\Controllers\Admin\PostController::class);
 });
 
 
