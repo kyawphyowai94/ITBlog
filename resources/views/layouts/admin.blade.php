@@ -22,6 +22,9 @@
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('backend.posts.index')}}">Posts</a>
                 </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('backend.categories.index')}}">Cateogories</a>
+                </div>
             </div>
             <!-- Page content wrapper-->
             <div id="page-content-wrapper">
